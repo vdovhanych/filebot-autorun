@@ -1,6 +1,6 @@
-#filebot-autorun
+**filebot-autorun**
 
-<p align="center">Filebot amc scirpt with autorun inotify service when the file is added to watched folder.<br />
+Filebot amc scirpt with autorun inotify service when the file is added to watched folder
 
 
 REQUIREMENTS
