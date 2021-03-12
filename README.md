@@ -1,6 +1,11 @@
-# filebot-autorun
-Filebot amc scirpt with autorun inotify service when the file is added to watched folder.
+#filebot-autorun
+
+<p align="center">Filebot amc scirpt with autorun inotify service when the file is added to watched folder.<br />
 
 
-You need to install inotify-tools for the autofilebot functionality to work.
-  sudo apt-get install -y inotify-tools
+REQUIREMENTS
+------------
+This scipt requieres inotify-tools to be installed on the device:
+ * Debian based distros - sudo apt-get install -y inotify-tools 
+
+
