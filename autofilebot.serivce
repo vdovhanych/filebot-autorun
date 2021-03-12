@@ -1,0 +1,13 @@
+[Unit]
+Description=New files in folder watch
+Wants=networking.service
+After=networking.service
+
+[Service]
+Type=simple
+Restart=on-failure
+ExecStart=/home/$USER/.bin/autofilebot.sh
+User=autofilebot
+
+[Install]
+WantedBy=multi-user.target
